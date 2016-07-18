@@ -1,0 +1,161 @@
+.card-offer {
+    display: block;
+    background: $white;
+    text-decoration: none;
+    border-radius: $radius-m;
+    cursor: pointer;
+}
+
+.card-offer__image {
+    position: relative;
+    height: 264px;
+    background-size: cover;
+    border-radius: $radius-m $radius-m 0 0;
+}
+
+.card-offer__favorite-button {
+    position: absolute;
+    top: $spacing-4;
+    right: $spacing-4;
+    width: 40px;
+    height: 40px;
+    background: $color-primary;
+    border-radius: $radius-m;
+    cursor: pointer;
+    transition: 0.2s linear background;
+    &:hover {
+        background: $color-primary-dark-1;
+    }
+}
+
+.card-offer__info {
+    position: relative;
+    padding: $spacing-6;
+    border-bottom: 1px solid $grey;
+    border-radius: 0 0 $radius-m $radius-m;
+}
+
+.card-offer__icon-list {
+    margin-bottom: $spacing-4;
+}
+
+.card-offer__icon-item {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: $spacing-2;
+}
+
+.card-offer__icon-item--hotel {
+    background: $yellow;
+}
+
+.card-offer__icon-item--flight {
+    background: $color-primary;
+}
+
+.card-offer__icon-item--transfer {
+    background: $red;
+}
+
+.card-offer__title {
+    display: block;
+    margin-bottom: $spacing-2;
+    font-size: $font-xxl;
+}
+
+.card-offer__sub-title {
+    display: block;
+    margin-bottom: $spacing-6;
+    font-size: $font-m;
+    color: $grey-dark-1;
+}
+
+.card-offer__description {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    max-height: 66px;
+    margin-bottom: $spacing-6;
+    font-size: 16px;
+    line-height: 1.4;
+    &:after {
+        content: '';
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 20px;
+        background: linear-gradient(90deg,hsla(0,0%,100%,0) 0,hsla(0,0%,100%,0.01) 1%,#ffffff);
+    }
+}
+
+.card-offer__usp-list {
+    margin-bottom: $spacing-6;
+    padding-left: $spacing-5;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.card-offer__usp-list-item {
+    &:before {
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        width: 6px;
+        height: 6px;
+        margin-right: $spacing-4;
+        background: $color-primary;
+        border-radius: 100%;
+    }
+}
+
+.card-offer__price {
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: right;
+}
+
+.card-offer__price-per-person {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.card-offer__price-info-icon {
+    margin-left: $spacing-3;
+    &:after {
+        content: 'i';
+        display: inline-block;
+        vertical-align: middle;
+        width: 20px;
+        height: 20px;
+        font-size: $font-s;
+        line-height: 20px;
+        text-align: center;
+        color: $grey;
+        border: 1px solid $grey;
+        border-radius: 100%;
+    }
+}
+
+.card-offer__price-subtext {
+    margin: 0;
+    font-size: $font-s;
+    color: $grey-dark-1;
+}
+
+.card-offer--sold-out {
+    position: relative;
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: $red;
+        border-radius: $radius-m;
+        opacity: 0.2;
+    }
+}

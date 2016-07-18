@@ -1,0 +1,43 @@
+@mixin cf() {
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+@mixin screen-xs() {
+	@media screen and (min-width: $screen-xs) {
+		@content;
+	}
+}
+
+@mixin screen-s() {
+	@media screen and (min-width: $screen-s) {
+		@content;
+	}
+}
+
+@mixin screen-m() {
+	@media screen and (min-width: $screen-m) {
+		@content;
+	}
+}
+
+@mixin screen-l() {
+	@media screen and (min-width: $screen-l) {
+		@content;
+	}
+}
+
+@mixin screen-xl() {
+	@media screen and (min-width: $screen-xl) {
+		@content;
+	}
+}
+
+@mixin screen-xxl() {
+	@media screen and (min-width: $screen-xxl) {
+		@content;
+	}
+}

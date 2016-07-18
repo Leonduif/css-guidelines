@@ -1,0 +1,10 @@
+.input {
+    padding: $spacing-4 $spacing-5;
+    background: $white;
+    border: 1px solid $grey;
+    border-radius: $radius-m;
+    outline: 0;
+    &:focus {
+        border-color: $color-primary;
+    }
+}

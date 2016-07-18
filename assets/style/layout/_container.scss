@@ -1,0 +1,9 @@
+.container {
+    max-width: $screen-xl;
+    margin: 0 $spacing-6;
+
+    // Fixes horizontal margin at $screen-xl viewport size
+    @media screen and (min-width: $screen-xl + ($spacing-6 * 2)) {
+        margin: 0 auto;
+    }
+}

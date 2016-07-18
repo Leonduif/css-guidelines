@@ -1,0 +1,26 @@
+.page-home__card-list {
+    @include screen-s {
+        margin: 0 (-$spacing-3);
+        font-size: 0;
+    }
+}
+
+.page-home__card-list-item {
+    display: block;
+    margin-bottom: $spacing-6;
+
+    @include screen-l {
+        width: $width-4;
+    }
+    @media screen and (min-width: 560px) {
+        display: inline-block;
+        vertical-align: top;
+        width: $width-6;
+    }
+}
+
+.page-home__card-offer {
+    @include screen-s {
+        margin: 0 $spacing-3;
+    }
+}

@@ -1,0 +1,71 @@
+// Colors
+$color-primary: #56ACF8;
+$color-primary-dark-1: darken($color-primary, 5%);
+$color-secondary: #FFBB39;
+$color-secondary-dark-1: darken($color-secondary, 5%);
+
+$white: #FFF;
+$black: #333;
+$grey: #CCC;
+$grey-light-1: lighten($grey, 5%);
+$grey-light-2: lighten($grey, 10%);
+$grey-light-3: lighten($grey, 15%);
+$grey-dark-1: darken($grey, 5%);
+$grey-dark-2: darken($grey, 10%);
+$grey-dark-3: darken($grey, 15%);
+$red: #BC1E15;
+$yellow: #DBD429;
+
+// Breakpoints
+$screen-xs: 320px;
+$screen-s: 520px;
+$screen-m: 750px;
+$screen-l: 920px;
+$screen-xl: 1200px;
+$screen-xxl: 1400px;
+
+// Spacings
+$spacing-1: 2px;
+$spacing-2: 4px;
+$spacing-3: 6px;
+$spacing-4: 8px;
+$spacing-5: 12px;
+$spacing-6: 16px;
+$spacing-7: 20px;
+$spacing-8: 24px;
+$spacing-9: 28px;
+$spacing-10: 32px;
+$spacing-11: 36px;
+$spacing-12: 40px;
+$spacing-13: 44px;
+$spacing-14: 48px;
+
+// Widths (for grid)
+$width-1: 8.33%;
+$width-2: 16.67%;
+$width-3: 25%;
+$width-4: 33.33%;
+$width-5: 41.67%;
+$width-6: 50%;
+$width-7: 58.33%;
+$width-8: 66.67%;
+$width-9: 75%;
+$width-10: 83.33%;
+$width-11: 91.67%;
+$width-12: 100%;
+
+// Fonts
+$font-xxs: 10px;
+$font-xs: 12px;
+$font-s: 14px;
+$font-m: 16px;
+$font-l: 18px;
+$font-xl: 20px;
+$font-xxl: 24px;
+$font-xxxl: 32px;
+
+// Border-radius
+$radius-xs: 2px;
+$radius-s: 4px;
+$radius-m: 6px;
+$radius-l: 8px;

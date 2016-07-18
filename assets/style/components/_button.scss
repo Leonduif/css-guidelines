@@ -1,0 +1,27 @@
+.button {
+    display: inline-block;
+    padding: $spacing-4 $spacing-6;
+    text-decoration: none;
+    border-radius: $spacing-2;
+    outline: none;
+}
+
+.button--primary {
+    background: $color-primary;
+    color: $white;
+    &:hover {
+        background: $color-primary-dark-1;
+    }
+}
+
+.button--secondary {
+    background: $color-secondary;
+    color: $white;
+    &:hover {
+        background: $color-secondary-dark-1;
+    }
+}
+
+.button--l {
+    padding: $spacing-6 $spacing-8;
+}
