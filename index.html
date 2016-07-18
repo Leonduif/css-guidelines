@@ -172,5 +172,15 @@
 			<p>Copyright</p>
 		</div>
 	</footer>
+
+	<script type="text/javascript">
+		// Toggles menu for mobile
+		var buttonEl = document.querySelector('.site-header__menu-button');
+		var navEl = document.querySelector('.site-header__nav-list');
+
+		buttonEl.addEventListener('click', function(){
+			navEl.classList.toggle('site-header__nav-list--expanded');
+		});
+	</script>
 </body>
 </html>
