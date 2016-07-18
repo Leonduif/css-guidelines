@@ -383,9 +383,9 @@ p {
   margin: 0; }
 
 .container {
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 16px; }
-  @media screen and (min-width: 1232px) {
+  @media screen and (min-width: 1312px) {
     .container {
       margin: 0 auto; } }
 
@@ -397,14 +397,17 @@ p {
 .page-home__card-list-item {
   display: block;
   margin-bottom: 16px; }
-  @media screen and (min-width: 920px) {
-    .page-home__card-list-item {
-      width: 33.33%; } }
-  @media screen and (min-width: 560px) {
+  @media screen and (min-width: 520px) {
     .page-home__card-list-item {
       display: inline-block;
       vertical-align: top;
       width: 50%; } }
+  @media screen and (min-width: 920px) {
+    .page-home__card-list-item {
+      width: 33.33%; } }
+  @media screen and (min-width: 1280px) {
+    .page-home__card-list-item {
+      width: 25%; } }
 
 @media screen and (min-width: 520px) {
   .page-home__card-offer {
