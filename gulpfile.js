@@ -28,9 +28,7 @@ var config = {
         jsMinFileName: 'all.js',
         index: 'index.html',
         dist: 'dist'
-    },
-    host: 'dev.sandbox',
-    ethernetIp: '127.0.0.1'
+    }
 };
 
 
@@ -55,8 +53,9 @@ gulp.task('sass', function(){
 // Browser sync
 gulp.task('browser-sync', function(){
     browserSync.init({
-        proxy: config.host,
-        host: config.ethernetIp,
+        server: {
+            baseDir: './'
+        },
         online: true
     });
 });
