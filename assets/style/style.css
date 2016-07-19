@@ -425,7 +425,7 @@ p {
 
 .site-header__nav-list {
   position: absolute;
-  top: 48px;
+  top: 100%;
   right: 0;
   left: 0;
   z-index: 1;
