@@ -5,8 +5,6 @@ var sass         = require('gulp-sass');
 var sourcemaps   = require('gulp-sourcemaps');
 var autoprefixer = require('gulp-autoprefixer');
 var browserSync  = require('browser-sync').create();
-var svgstore     = require('gulp-svgstore');
-var imagemin     = require('gulp-imagemin');
 var uglify       = require('gulp-uglify');
 var concat       = require('gulp-concat');
 var inject       = require('gulp-inject');
@@ -65,14 +63,6 @@ gulp.task('watch', function(){
     gulp.watch(config.src.sass, ['sass']);
     gulp.watch('**/*.html').on('change', browserSync.reload);
     gulp.watch(config.src.js, ['inject-dev']);
-});
-
-// Svg
-gulp.task('svg', function(){
-    return gulp.src(config.src.icons)
-            .pipe(imagemin())
-            .pipe(svgstore())
-            .pipe(gulp.dest('partials'));
 });
 
 // JS compression

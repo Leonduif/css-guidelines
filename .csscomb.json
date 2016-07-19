@@ -71,6 +71,8 @@
             "padding-left",
             "background",
             "filter:progid:DXImageTransform.Microsoft.AlphaImageLoader",
+            "filter:progid:DXImageTransform.Microsoft.gradient",
+            "-ms-filter:\\'progid:DXImageTransform.Microsoft.gradient",
             "background-color",
             "background-image",
             "background-repeat",
@@ -88,6 +90,10 @@
             "-moz-background-size",
             "-o-background-size",
             "background-size",
+            "opacity",
+            "filter:progid:DXImageTransform.Microsoft.Alpha(Opacity",
+            "-ms-filter:\\'progid:DXImageTransform.Microsoft.Alpha",
+            "-ms-interpolation-mode",
             "font",
             "font-family",
             "font-size",
@@ -137,6 +143,7 @@
             "-webkit-hyphens",
             "-moz-hyphens",
             "caption-side",
+            "text-shadow",
             "border",
             "border-spacing",
             "border-collapse",
@@ -207,9 +214,6 @@
             "-webkit-box-shadow",
             "-moz-box-shadow",
             "box-shadow",
-            "filter:progid:DXImageTransform.Microsoft.gradient",
-            "-ms-filter:\\'progid:DXImageTransform.Microsoft.gradient",
-            "text-shadow",
             "list-style",
             "list-style-position",
             "list-style-type",
@@ -304,11 +308,7 @@
             "-o-animation-direction",
             "animation-direction",
             "hyphens",
-            "pointer-events",
-            "opacity",
-            "filter:progid:DXImageTransform.Microsoft.Alpha(Opacity",
-            "-ms-filter:\\'progid:DXImageTransform.Microsoft.Alpha",
-            "-ms-interpolation-mode"
+            "pointer-events"
        ]
    ]
 }

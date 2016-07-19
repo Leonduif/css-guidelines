@@ -708,8 +708,8 @@ p {
     bottom: 0;
     left: 0;
     background: #BC1E15;
-    border-radius: 6px;
-    opacity: 0.2; }
+    opacity: 0.2;
+    border-radius: 6px; }
 
 .input {
   padding: 8px 12px;
